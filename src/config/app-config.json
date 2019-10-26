@@ -1,0 +1,16 @@
+{
+    "region": "us-east-2",
+    "userPool": "us-east-2_zoqBMvpSB",
+    "userPoolBaseUri": "https://boxitlocal.auth.us-east-2.amazoncognito.com",
+    "clientId": "359s3ipismnemd5mrpj5f4pi0v",
+    "callbackUri": "http://localhost:3000/callback",
+    "signoutUri": "http://localhost:3000",
+    "tokenScopes": [
+        "openid",
+        "email",
+        "profile",
+        "http://localhost:8080/hello-world.all"
+    ],
+    "apiUri": "http://localhost:8080",
+    "cloudfrontUri": "https://dsqsqtqcarkd6.cloudfront.net/"
+}
