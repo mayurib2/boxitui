@@ -3,8 +3,8 @@
     "userPool": "us-east-2_zoqBMvpSB",
     "userPoolBaseUri": "https://boxitlocal.auth.us-east-2.amazoncognito.com",
     "clientId": "359s3ipismnemd5mrpj5f4pi0v",
-    "callbackUri": "https://ui.boxitworks.com/callback",
-    "signoutUri": "https://ui.boxitworks.com",
+    "callbackUri": "https://ec2-18-191-16-153.us-east-2.compute.amazonaws.com:3000/callback",
+    "signoutUri": "https://ec2-18-191-16-153.us-east-2.compute.amazonaws.com:3000",
     "tokenScopes": [
         "openid",
         "email",
