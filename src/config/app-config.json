@@ -9,8 +9,8 @@
         "openid",
         "email",
         "profile",
-        "http://ec2-3-15-12-38.us-east-2.compute.amazonaws.com:8080/hello-world.all"
+        "http://ec2-3-15-12-38.us-east-2.compute.amazonaws.com:3000/hello-world.all"
     ],
-    "apiUri": "http://ec2-3-15-12-38.us-east-2.compute.amazonaws.com:8080",
+    "apiUri": "http://ec2-3-15-12-38.us-east-2.compute.amazonaws.com:3000",
     "cloudfrontUri": "https://dsqsqtqcarkd6.cloudfront.net/"
 }
