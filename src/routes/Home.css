@@ -1,5 +1,6 @@
 .Home {
   text-align: center;
+  ;
 }
 
 .Home-logo {
@@ -9,7 +10,7 @@
 }
 
 .Home-header {
-  background-color: #282c34;
+  background-color: #d5e68d;
   /*background-color: rgba(255, 252, 73, 0.64);*/
   min-height: 100vh;
   display: flex;
@@ -17,13 +18,24 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #241023;
+  padding: 20px;
 }
 
+h1 {
+  color: #a3320b;
+}
 .Home-link {
-  color: #1400fe;
+  color: #6b0504;
+  border-color: #241023;
+  border-style: solid;
+  border-width: medium;
+  padding: 10px;
 }
 
+.current-user {
+  font-style: italic;
+}
 .Home-api-response {
   margin-top: 10px;
   width: 50%;
@@ -43,7 +55,7 @@
 
 .Home-details {
   margin-top: 2em;
-  font-size: 14px;
+  font-size: 20px;
   max-width: 50%;
 }
 .Home-details a {

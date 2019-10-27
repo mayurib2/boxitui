@@ -126,9 +126,9 @@ class UploadFile extends Component {
                             <div className="col-md-6">
                                 <form method="post" action="#" id="#">
                                     <div className="form-group files">
-                                        <label>Upload Your File </label>
+                                        <label className="new-file-label">Upload Your File </label>
                                         <input type="file" name="file" onChange={this.onChangeHandler}/>
-                                        <input type="text" onBlur={this.onBlurHandler}/>
+                                        <input className="new-file-desc" type="text" onBlur={this.onBlurHandler}/>
                                         <button type="button" className="btn btn-success btn-block"
                                                 onClick={this.onClickHandler}>Upload
                                         </button>

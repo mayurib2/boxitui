@@ -148,7 +148,7 @@ class ViewFiles extends Component {
                                 <Link to="/files/update">Update Existing File</Link>
                             </div>
                         </div>
-                        <MDBTable className="table table-bordered">
+                        <MDBTable striped className="table table-bordered">
                             <MDBTableHead>
                                 <tr>
                                     {this.getHeader()}

@@ -62,7 +62,9 @@ class Home extends Component {
           { this.props.session.isLoggedIn ? (
             <div>
               {/*<p>You are logged in as user {this.props.session.user.userName} ({this.props.session.user.email}).</p>*/}
-              <p>You are logged in as user ({this.props.session.user.email}).</p>
+              <h1> BoxITWorks</h1>
+              <h2>It really works!!</h2>
+              <p className="current-user">You are logged in as user ({this.props.session.user.email}).</p>
 
               <div>
                 <Link to="/files/upload">Upload New File</Link>

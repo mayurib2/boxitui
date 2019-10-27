@@ -126,7 +126,7 @@ class UpdateExistingFile extends Component {
                                 <form method="post" action="#" id="#">
                                     <div className="form-group files">
                                         <label>Upload Your File </label>
-                                        <input type="file" name="file" onChange={this.onChangeHandler}/>
+                                        <input className="new-file-update" type="file" name="file" onChange={this.onChangeHandler}/>
                                         <input type="text" onBlur={this.onBlurHandler}/>
                                         <button type="button" className="btn btn-success btn-block"
                                                 onClick={this.onClickHandler}>Upload
