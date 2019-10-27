@@ -3,14 +3,14 @@
     "userPool": "us-east-2_zoqBMvpSB",
     "userPoolBaseUri": "https://boxitlocal.auth.us-east-2.amazoncognito.com",
     "clientId": "359s3ipismnemd5mrpj5f4pi0v",
-    "callbackUri": "http://localhost:3000/callback",
-    "signoutUri": "http://localhost:3000",
+    "callbackUri": "http://ec2-3-15-224-214.us-east-2.compute.amazonaws.com:3000/callback",
+    "signoutUri": "http://ec2-3-15-224-214.us-east-2.compute.amazonaws.com:3000",
     "tokenScopes": [
         "openid",
         "email",
         "profile",
-        "http://localhost:8080/hello-world.all"
+        "http://ec2-3-15-12-38.us-east-2.compute.amazonaws.com:8080/hello-world.all"
     ],
-    "apiUri": "http://localhost:8080",
+    "apiUri": "http://ec2-3-15-12-38.us-east-2.compute.amazonaws.com:8080",
     "cloudfrontUri": "https://dsqsqtqcarkd6.cloudfront.net/"
 }
