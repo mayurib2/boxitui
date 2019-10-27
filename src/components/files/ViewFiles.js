@@ -54,6 +54,7 @@ class ViewFiles extends Component {
                     Authorization: `Bearer ${this.props.session.credentials.idToken}`
                 }
             }
+            console.log("Calling api with url ",options.url);
 
             this.setState({apiStatus: 'Loading...'});
             request.get(options, (err, resp, body) => {
